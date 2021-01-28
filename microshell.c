@@ -22,7 +22,7 @@ void show_path(){
 char get_path(char ptr[100]){
     char path[1000], com;
     getcwd(path, sizeof(path));
-    chdir(ptr);
+    chdir(ptr); //komentarz
      return 0;
 }
 
